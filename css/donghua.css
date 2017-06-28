@@ -1,0 +1,37 @@
+.animation{animation:1.5s linear}
+
+.infinite{animation-iteration-count: infinite}
+
+.rotatemusic{animation-name: rotatemusic}
+
+.jiantoumove{animation-name: jiantoumove}
+
+.one{animation-name: one}
+
+.two{animation-name: two}
+
+/*ÒôÀÖ*/
+@keyframes rotatemusic {
+    0%{transform: rotate(0deg)}
+    100%{transform:rotate(360deg)}
+}
+
+/*¼ýÍ·*/
+@keyframes jiantoumove {
+    0%{transform: translateY(0.5rem);opacity: 0}
+    0%{transform: translateY(0rem);opacity: 1}
+    100%{transform: translateY(-0.5rem);opacity: 0}
+}
+
+/*¶þ*/
+
+@keyframes one {
+    0%{transform: rotate(0deg)}
+    100%{transform: rotate(360deg)}
+
+}
+
+@keyframes two {
+    0%{transform: rotate(0deg)}
+    100%{transform: rotate(-360deg)}
+}
